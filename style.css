@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=B612+Mono');
+
+html, body {
+    font-family: "B612 Mono", monospace;
+    text-align: center;
+}
+
+h2 {
+    font-size: 200px;
+}
+
+#welcome {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+}
+
+#generator {
+    margin-top: 70px;
+}
+
+#wrapper {
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    justify-content: center;
+    /* align-items: flex-end; */
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 70px;
+}
+
+.box {
+    border: solid 2px lightcoral;
+    background: lightcoral;
+    color: white;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+
+.show {
+    display:none;
+}
